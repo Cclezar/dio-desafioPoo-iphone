@@ -32,9 +32,9 @@ config:
   theme: dark
 ---
 classDiagram
-    iPhone <|-- ReprodutorMusical
-    iPhone <|-- AparelhoTelefonico
-    iPhone <|-- NavegadorInternet
+    iPhone --|> ReprodutorMusical
+    iPhone --|> AparelhoTelefonico
+    iPhone --|> NavegadorInternet
     class ReprodutorMusical{
       +tocar()
       +pausar()
